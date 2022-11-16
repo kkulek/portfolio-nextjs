@@ -6,6 +6,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'prm-dark': "#001220"
+      },
+      backgroundImage: {
+        "bottom-layer": "url('../public/layered-waves.svg')"
+      },
       animation: {
         blob: "blob 8s infinite ease-in-out",
       },
