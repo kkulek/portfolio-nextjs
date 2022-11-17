@@ -41,6 +41,7 @@ module.exports = {
       },
       animation: {
         blob: "blob 8s infinite ease-in-out",
+        smallRotate: "smallRotate 200ms linear",
       },
       keyframes: {
         blob: {
@@ -59,6 +60,23 @@ module.exports = {
           to: {
             transform: "translate(0, 0) scale(1)"
           }
+        },
+        smallRotate: {
+          from: {
+            transform: "rotate(0)"
+          },
+          "25%": {
+            transform: "rotate(25deg)"
+          },
+          "50%": {
+            transform: "rotate(0)"
+          },
+          "75%": {
+            transform: "rotate(-25deg)"
+          },
+          to: {
+            transform: "rotate(0)"
+          },
         }
       },
     },

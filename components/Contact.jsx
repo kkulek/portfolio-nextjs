@@ -6,7 +6,7 @@ export function Contact() {
         <div className="px-10 sm:px-20 bg-prm-dark relative">
             <div className="absolute w-full h-52 xl:h-56 bg-bottom-layer left-0 -top-48 bg-no-repeat bg-cover "></div>
             <div className="max-w-[1200px] mx-auto py-20 text-white space-y-6">
-                    <h3 className="text-6xl md:text-7xl font-bold tracking-wider">
+                    <h3 id="contact" className="text-6xl md:text-7xl font-bold tracking-wider">
                         {contactData.title}:
                     </h3>
                     <h4 className="text-5xl font-thin tracking-widest">{contactData.name}</h4>
