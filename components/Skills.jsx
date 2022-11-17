@@ -36,7 +36,7 @@ export function Skills() {
                         })}
                     </div>
                 </div>
-                <div className="absolute w-full h-52 xl:h-56 rotate-180 bg-bottom-layer left-0 -bottom-48 bg-no-repeat bg-cover bg-bottom"></div>
+                <div className="z-10 absolute w-full h-52 xl:h-56 rotate-180 bg-bottom-layer left-0 -bottom-48 bg-no-repeat bg-cover bg-bottom"></div>
             </section>
         </div>
     )

@@ -156,15 +156,41 @@ export const projects = [
             "Dark mode", "Countries search", "Fetch API", "Routing"
         ]
     },
-    // {
-    //     name: "Rating component",
-    //     img: "project-interactive.png",
-    //     short: "My first JS component.",
-    //     stackArr: [
-    //         "HTML", "React", "Tailwindcss"
-    //     ],
-    //     featuresArr: [
-    //         "Dark mode", "Countries search", "Fetch API", "Routing"
-    //     ]
-    // },
-]
+];
+
+export const contactData = {
+    title: "Contact",
+    name: "Krzysztof Kulka",
+    contact: [
+        {
+            text: "krzysztof.kulka@hotmail.com",
+            icon: "mail",
+            link: `mailto:krzysztof.kulka@hotmail.com`,
+            target: ''
+        },
+        {
+            text: "570 042 513",
+            icon: "phone",
+            link: `tel:+48570042513`,
+            target: ''
+        },
+        {
+            text: "Codewars",
+            icon: "codewars",
+            link: "https://www.codewars.com/users/kkulek",
+            target: '_blank'
+        },
+        {
+            text: "Github",
+            icon: "github",
+            link: "http://github.com/kkulek",
+            target: '_blank'
+        },
+        {
+            text: "CV",
+            icon: "cv",
+            link: "Krzysztof_Kulka_CV.pdf",
+            target: "_blank"
+        },
+    ]
+}
