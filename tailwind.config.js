@@ -66,13 +66,13 @@ module.exports = {
             transform: "rotate(0)"
           },
           "25%": {
-            transform: "rotate(12deg)"
+            transform: "rotate(25deg)"
           },
           "50%": {
             transform: "rotate(0)"
           },
           "75%": {
-            transform: "rotate(-12deg)"
+            transform: "rotate(-25deg)"
           },
           to: {
             transform: "rotate(0)"
