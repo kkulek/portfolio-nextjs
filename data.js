@@ -66,7 +66,11 @@ export const projects = [
         ],
         featuresArr: [
             "Dark mode", "User search", "Routing"
-        ]
+        ],
+        link: {
+            live: "https://sprightly-froyo-135814.netlify.app/",
+            github: "https://github.com/kkulek/devjobs-web-app"
+        }
     },
     {
         name: "Countries search",
@@ -77,7 +81,11 @@ export const projects = [
         ],
         featuresArr: [
             "Dark mode", "Countries search", "Fetch API", "Routing"
-        ]
+        ],
+        link: {
+            live: "https://comforting-salamander-55809d.netlify.app/",
+            github: "https://github.com/kkulek/countries-search-rest-api"
+        }
     },
     {
         name: "Password Generator",
@@ -88,7 +96,11 @@ export const projects = [
         ],
         featuresArr: [
             "Dark mode", "Generating password"
-        ]
+        ],
+        link: {
+            live: "https://graceful-bavarois-10def4.netlify.app/",
+            github: "https://github.com/kkulek/password-generator"
+        }
     },
     {
         name: "Scoot website",
@@ -99,7 +111,11 @@ export const projects = [
         ],
         featuresArr: [
             "Dark mode", "Generating password"
-        ]
+        ],
+        link: {
+            live: "https://benevolent-llama-1540a9.netlify.app/",
+            github: "https://github.com/kkulek/scoot-multi-page-website"
+        }
     },
     {
         name: "Github user search",
@@ -110,7 +126,11 @@ export const projects = [
         ],
         featuresArr: [
             "Dark mode", "Countries search", "Fetch API", "Routing"
-        ]
+        ],
+        link: {
+            live: "https://voluble-muffin-ec8609.netlify.app/",
+            github: "https://github.com/kkulek/github-user-search-app"
+        }
     },
     {
         name: "Advice generator",
@@ -121,7 +141,11 @@ export const projects = [
         ],
         featuresArr: [
             "Dark mode", "Countries search", "Fetch API", "Routing"
-        ]
+        ],
+        link: {
+            live: "https://leafy-froyo-a1ae30.netlify.app/",
+            github: "https://github.com/kkulek/advice-generator"
+        }
     },
     {
         name: "CRUD Kanban",
@@ -132,7 +156,11 @@ export const projects = [
         ],
         featuresArr: [
             "Dark mode", "Countries search", "Fetch API", "Routing"
-        ]
+        ],
+        link: {
+            live: "https://cozy-churros-9220bd.netlify.app/",
+            github: "https://github.com/kkulek/kanban-board"
+        }
     },
     {
         name: "Easybank Single Page",
@@ -143,7 +171,11 @@ export const projects = [
         ],
         featuresArr: [
             "Dark mode", "Countries search", "Fetch API", "Routing"
-        ]
+        ],
+        link: {
+            live: "https://kkulek.github.io/easybank-lp/",
+            github: "https://github.com/kkulek/easybank-lp"
+        }
     },
     {
         name: "Meet Single Page",
@@ -154,7 +186,11 @@ export const projects = [
         ],
         featuresArr: [
             "Dark mode", "Countries search", "Fetch API", "Routing"
-        ]
+        ],
+        link: {
+            live: "https://kkulek.github.io/meet-landing-page/",
+            github: "https://github.com/kkulek/meet-landing-page"
+        }
     },
 ];
 
