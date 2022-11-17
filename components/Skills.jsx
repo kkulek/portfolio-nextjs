@@ -2,7 +2,7 @@ import {skills} from '../data';
 
 export function Skills() {
     return (
-        <div className="relative z-10">
+        <div className="relative">
             <section className="bg-prm-dark px-10 sm:px-20">
                 <div className="mx-auto py-32 md:py-48 max-w-[1200px]">
                     <div className="flex flex-col justify-center text-white gap-40">
