@@ -32,7 +32,12 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "bottom-layer": "url('../public/layered-waves.svg')"
+        "bottom-layer": "url('../public/layered-waves.svg')",
+        "icon-github": "url('../public/img/icons/github.svg')",
+        "icon-cv": "url('../public/img/icons/cv.svg')",
+        "icon-mail": "url('../public/img/icons/mail.svg')",
+        "icon-phone": "url('../public/img/icons/phone.svg')",
+        "icon-codewars": "url('../public/img/icons/codewars.svg')",
       },
       animation: {
         blob: "blob 8s infinite ease-in-out",
