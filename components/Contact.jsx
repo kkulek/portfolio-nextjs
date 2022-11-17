@@ -1,4 +1,5 @@
 import {contactData} from "../data"
+import Link from "next/link";
 
 export function Contact() {
     return (
@@ -13,9 +14,9 @@ export function Contact() {
                         {contactData.contact.map((item, index) => {
                             return (
                                 <li key={index} className="relative">
-                                    <a href={item.link} target={item.target} className={`text-lg pl-10 before:absolute before:-ml-10 before:w-6 before:h-6 before:bg-icon-${item.icon} before:top-1/2 before:-translate-y-1/2 before:bg-contain before:bg-center before:bg-no-repeat`}>
+                                    <Link href={item.link} target={item.target} className={`text-lg pl-10 before:absolute before:-ml-10 before:w-6 before:h-6 before:bg-icon-${item.icon} before:top-1/2 before:-translate-y-1/2 before:bg-contain before:bg-center before:bg-no-repeat`}>
                                         {item.text}
-                                    </a>
+                                    </Link>
                                 </li>
                             )
                         })}
