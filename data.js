@@ -73,7 +73,7 @@ export const projects = [
         img: "project-countries.webp",
         short: "SPA using: React, Tailwindcss, API.",
         stackArr: [
-            "HTML", "React", "Tailwindcss",
+            "HTML", "React", "Tailwindcss"
         ],
         featuresArr: [
             "Dark mode", "Countries search", "Fetch API", "Routing"
@@ -84,7 +84,7 @@ export const projects = [
         img: "project-password-generator.webp",
         short: "Practical app using: HTML, Tailwindcss & JS.",
         stackArr: [
-            "HTML", "JS", "Tailwindcss",
+            "HTML", "JavaScript", "Tailwindcss"
         ],
         featuresArr: [
             "Dark mode", "Generating password"
@@ -95,46 +95,76 @@ export const projects = [
         img: "projects-scoot-lp.webp",
         short: "Multi page layout using: HTML, SASS, JS.",
         stackArr: [
-            "HTML", "SASS", "JS",
+            "HTML", "JavaScript", "SASS"
         ],
         featuresArr: [
             "Dark mode", "Generating password"
         ]
     },
-    // {
-    //     name: "Github user search",
-    //     img: "",
-    //     short: "Search app using: React, styled-components, fetch API.",
-    //     stack: "",
-    // },
-    // {
-    //     name: "Advice generator",
-    //     img: "",
-    //     short: "Simple app using: React, styled-components, fetch API.",
-    //     stack: "",
-    // },
-    // {
-    //     name: "CRUD Kanban",
-    //     img: "",
-    //     short: "Kanban board using: React, Tailwindcss, fetch API, beutiful-dnd, uuidv4 and Firestore.",
-    //     stack: "",
-    // },
-    // {
-    //     name: "Easybank Single Page",
-    //     img: "",
-    //     short: "HTML, SASS & JS.",
-    //     stack: "",
-    // },
-    // {
-    //     name: "Meet Single Page",
-    //     img: "",
-    //     short: "HTML & CSS",
-    //     stack: "",
-    // },
+    {
+        name: "Github user search",
+        img: "project-github-user-search.webp",
+        short: "Search app using: React, styled-components, fetch API.",
+        stackArr: [
+            "HTML", "React", "Styled-components"
+        ],
+        featuresArr: [
+            "Dark mode", "Countries search", "Fetch API", "Routing"
+        ]
+    },
+    {
+        name: "Advice generator",
+        img: "projects-advice-generator.webp",
+        short: "Simple app using: React, styled-components, fetch API.",
+        stackArr: [
+            "HTML", "React", "Styled-components"
+        ],
+        featuresArr: [
+            "Dark mode", "Countries search", "Fetch API", "Routing"
+        ]
+    },
+    {
+        name: "CRUD Kanban",
+        img: "project-kanban.png",
+        short: "Kanban board using: React, Tailwindcss, fetch API, beutiful-dnd, uuidv4 and Firestore.",
+        stackArr: [
+            "HTML", "React", "Tailwindcss", "Firestore"
+        ],
+        featuresArr: [
+            "Dark mode", "Countries search", "Fetch API", "Routing"
+        ]
+    },
+    {
+        name: "Easybank Single Page",
+        img: "project-easybank.png",
+        short: "HTML, SASS & JS.",
+        stackArr: [
+            "HTML", "Javascript", "SASS"
+        ],
+        featuresArr: [
+            "Dark mode", "Countries search", "Fetch API", "Routing"
+        ]
+    },
+    {
+        name: "Meet Single Page",
+        img: "project-meet.png",
+        short: "HTML & CSS",
+        stackArr: [
+            "HTML", "CSS"
+        ],
+        featuresArr: [
+            "Dark mode", "Countries search", "Fetch API", "Routing"
+        ]
+    },
     // {
     //     name: "Rating component",
-    //     img: "",
+    //     img: "project-interactive.png",
     //     short: "My first JS component.",
-    //     stack: "",
+    //     stackArr: [
+    //         "HTML", "React", "Tailwindcss"
+    //     ],
+    //     featuresArr: [
+    //         "Dark mode", "Countries search", "Fetch API", "Routing"
+    //     ]
     // },
 ]
