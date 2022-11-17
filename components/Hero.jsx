@@ -16,7 +16,7 @@ export function Hero() {
                         <Link href="/" className="px-4 py-2 bg-slate-50 rounded">Github</Link>
                     </div>
                 </div>
-                <div className="absolute w-full h-52 xl:h-56 bg-bottom-layer -bottom-20 bg-no-repeat bg-cover bg-bottom"></div>
+                <div className="absolute z-10 w-full h-52 xl:h-56 bg-bottom-layer -bottom-20 bg-no-repeat bg-cover bg-bottom"></div>
             </div>
         </section>
     )
