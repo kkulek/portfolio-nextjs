@@ -59,7 +59,7 @@ export const skills = [
 export const projects = [
     {
         name: "Devjobs board",
-        img: "project-devjobs.webp",
+        img: "devjobs.webp",
         short: "SPA with routing, dark mode & search functionality.",
         stackArr: [
             "HTML", "React", "Tailwindcss",
@@ -74,7 +74,7 @@ export const projects = [
     },
     {
         name: "Countries search",
-        img: "project-countries.webp",
+        img: "countries.webp",
         short: "SPA with routing, dark mode & search functionality.",
         stackArr: [
             "HTML", "React", "Tailwindcss"
@@ -89,7 +89,7 @@ export const projects = [
     },
     {
         name: "Password Generator",
-        img: "project-password-generator.webp",
+        img: "generator.webp",
         short: "Practical app for password generation.",
         stackArr: [
             "HTML", "JavaScript", "Tailwindcss"
@@ -104,7 +104,7 @@ export const projects = [
     },
     {
         name: "Scoot website",
-        img: "projects-scoot-lp.webp",
+        img: "scoot.webp",
         short: "Multi page business website.",
         stackArr: [
             "HTML", "JavaScript", "SASS"
@@ -119,7 +119,7 @@ export const projects = [
     },
     {
         name: "Github user search",
-        img: "project-github-user-search.webp",
+        img: "github-user-search.webp",
         short: "Find github users!",
         stackArr: [
             "HTML", "React", "Styled-components"
@@ -134,7 +134,7 @@ export const projects = [
     },
     {
         name: "Advice generator",
-        img: "projects-advice-generator.webp",
+        img: "advice-generator.webp",
         short: "For daily inspiration.",
         stackArr: [
             "HTML", "React", "Styled-components"
@@ -149,7 +149,7 @@ export const projects = [
     },
     {
         name: "CRUD Kanban",
-        img: "project-kanban.png",
+        img: "kanban.webp",
         short: "SPA with Firestore database.",
         stackArr: [
             "HTML", "React", "Tailwindcss", "Firestore"
@@ -164,7 +164,7 @@ export const projects = [
     },
     {
         name: "Easybank Single Page",
-        img: "project-easybank.png",
+        img: "easybank.webp",
         short: "Small business Landing Page.",
         stackArr: [
             "HTML", "Javascript", "SASS"
@@ -179,7 +179,7 @@ export const projects = [
     },
     {
         name: "Meet Single Page",
-        img: "project-meet.png",
+        img: "meet.webp",
         short: "Small business Landing Page.",
         stackArr: [
             "HTML", "CSS"
