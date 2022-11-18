@@ -6,6 +6,7 @@ export function Skills() {
             <section className="bg-prm-dark px-10 sm:px-20">
                 <div className="mx-auto py-32 md:py-48 max-w-[1200px]">
                     <div id="skills" className="flex flex-col justify-center text-white gap-40">
+                        {/*<span className="hidden hover:after:bg-palette-0 hover:after:bg-palette-1 hover:after:bg-palette-2 hover:after:bg-palette-3 hover:after:bg-palette-4 hover:after:bg-palette-5 hover:after:bg-palette-6 hover:after:bg-palette-7"></span>*/}
                         {skills.map((type, index) => {
                             return (
                                 <div className="w-fit" key={index}>

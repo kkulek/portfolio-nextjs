@@ -10,7 +10,8 @@ export function Contact() {
                         {contactData.title}:
                     </h3>
                     <h4 className="text-5xl font-thin tracking-widest">{contactData.name}</h4>
-                    <ul className="space-y-6">
+                {/*<span className="hidden before:bg-icon-mail before:bg-icon-phone before:bg-icon-codewars before:bg-icon-github before:bg-icon-cv"></span>*/}
+                <ul className="space-y-6">
                         {contactData.contact.map((item, index) => {
                             return (
                                 <li key={index} className="relative">
