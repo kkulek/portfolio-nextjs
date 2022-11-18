@@ -18,7 +18,7 @@ export function Projects() {
                                 <div className="relative bg-white group-hover:drop-shadow-xl">
                                     <a href={item.link.live}>
                                         <img src={basePath + item.img} alt={`Project: ${item.name}`}
-                                             className="w-[600px] h-[300px] w-full h-fit rounded-t-xl opacity-70 transition-all duration-1000 group-hover:opacity-100"/>
+                                             className="w-[600px] w-full h-fit rounded-t-xl opacity-70 transition-all duration-1000 group-hover:opacity-100"/>
                                     </a>
                                     <div className="p-6">
                                         <a href={item.link.live} className="inline-block">
