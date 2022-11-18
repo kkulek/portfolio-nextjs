@@ -8,7 +8,7 @@ export function Projects() {
                 <h2 id="projects" className="text-6xl md:text-7xl font-bold max-w-[1200px] mx-auto">Projects:</h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-12 my-24">
                     {projects.map((item, index) => {
-                        const basePath = './img/';
+                        const basePath = './img/projects/';
                         return (
                             <article key={index}
                                      className="relative group
@@ -18,7 +18,7 @@ export function Projects() {
                                 <div className="relative bg-white group-hover:drop-shadow-xl">
                                     <a href={item.link.live}>
                                         <img src={basePath + item.img} alt={`Project: ${item.name}`}
-                                             className="w-full rounded-t-xl opacity-70 transition-all duration-1000 group-hover:opacity-100"/>
+                                             className="w-[600px] h-[300px] w-full h-fit rounded-t-xl opacity-70 transition-all duration-1000 group-hover:opacity-100"/>
                                     </a>
                                     <div className="p-6">
                                         <a href={item.link.live} className="inline-block">
