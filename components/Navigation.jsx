@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {useState} from "react";
+import { Menu, Close } from 'react-ionicons'
 
 export function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
@@ -28,11 +29,8 @@ export function Navigation() {
                              className="w-[117px] h-[31px] w-full h-fit ml-[4px]">
                         </img>
                     </Link>
-                    <div className="absolute right-10 cursor-pointer md:hidden" onClick={handleHamburger}>
-                        {isOpen
-                            ? <span className="block w-6 h-3 bg-blue-600 mb-1 rounded"><ion-icon name="close"></ion-icon></span>
-                            : <span className="block w-6 h-4 bg-gray-600 mb-1 rounded"><ion-icon name="menu"></ion-icon></span>
-                        }
+                    <div className="absolute right-10 cursor-pointer md:hidden text-3xl" onClick={handleHamburger}>
+                        {isOpen ? <Close/> : <Menu/>}
                     </div>
                     <ul className={`bg-white md:bg-transparent flex flex-col items-center md:flex-row absolute md:static 
                     top-11 -right-full w-full md:w-auto h-screen md:h-auto pt-10 md:pt-0 gap-12 text-prm-dark text-sm font-bold tracking-widest
