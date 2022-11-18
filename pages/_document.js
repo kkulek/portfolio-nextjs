@@ -14,9 +14,7 @@ export default function Document() {
                 <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5"/>
                 <meta name="msapplication-TileColor" content="#da532c"/>
                 <meta name="theme-color" content="#ffffff"/>
-                <meta name="description"
-                      content="Frontend developer with digital marketing background ready for the next project!"/>
-                <title>Krzysztof Kulka Portfolio</title>
+
             </Head>
             <body>
             <Main/>
