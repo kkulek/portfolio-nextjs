@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function Contact() {
     return (
-        <div className="px-10 sm:px-20 bg-prm-dark relative">
+        <div className="px-10 sm:px-20 bg-prm-dark relative h-screen md:h-fit">
             <div className="absolute w-full h-52 xl:h-56 bg-bottom-layer left-0 -top-48 bg-no-repeat bg-cover "></div>
             <div className="max-w-[1200px] mx-auto py-20 text-white space-y-6">
                     <h3 id="contact" className="text-6xl md:text-7xl font-bold tracking-wider">
