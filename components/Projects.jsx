@@ -1,6 +1,6 @@
 import {projects} from "../data";
 import {Button} from "./Button";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 
 export function Projects() {
@@ -19,7 +19,7 @@ export function Projects() {
                                     className="absolute bg-gradient-to-r from-palette-0 via-palette-1 to-palette-2 inset-0.5 blur opacity-25 group-hover:opacity-30 group-hover:scale-105"></div>
                                 <div className="relative bg-white group-hover:drop-shadow-xl">
                                     <Link href={item.link.live} target="_blank" rel="noreferrer">
-                                        <Image src={basePath + item.img} width={600} height={300} alt={`Project: ${item.name} `}
+                                        <ExportedImage src={basePath + item.img} width={600} height={300} alt={`Project: ${item.name} `}
                                              className="w-[600px] w-full h-fit rounded-t-xl opacity-70 transition-all duration-1000 group-hover:opacity-100"/>
                                     </Link>
                                     <div className="p-6">

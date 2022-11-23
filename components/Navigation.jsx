@@ -1,7 +1,7 @@
 import Link from "next/link";
 import {useEffect, useState} from "react";
 import {Menu, Close} from 'react-ionicons'
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 
 export function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
@@ -34,9 +34,9 @@ export function Navigation() {
             <div className="max-w-[1200px] mx-auto">
                 <nav className="flex justify-between items-center py-2">
                     <Link href="#home">
-                        <Image src="/img/logo/logo-dark.webp" alt="logo" width={117} height={31}
+                        <ExportedImage src="/img/logo/logo-dark.webp" alt="logo" width={117} height={31}
                              className="w-[117px] h-[31px] w-full h-fit ml-[4px]">
-                        </Image>
+                        </ExportedImage>
                     </Link>
                     <div className="absolute right-10 cursor-pointer md:hidden" onClick={handleHamburger}>
                         {isOpen
